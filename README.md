@@ -1,93 +1,91 @@
-<div align="center">
-  
-# [Build Your Own MedicBot!](https://medicbot002.netlify.app/)
+# MedicBot
 
+**An open-source robotic assistant for medical applications**
 
 ![medicbot_banner](https://github.com/user-attachments/assets/cbc358d9-a824-493e-83dc-920ca07ca374)
 
+## 🚀 About the Project
+MedicBot is an open-source medical assistant robot designed to help with basic healthcare tasks. This project includes:
 
+- **3D Printable Parts**: STL files for printing the robot's body.
+- **Electronics & Assembly Guide**: Components list and assembly instructions.
+- **Software & Code**: Python scripts to control the robot.
 
-## Automate Routine Checks
+## 📁 Project Structure
+```
+MedicBot/
+├── stl_files/            # 3D model files for printing
+├── software/             # Python scripts for controlling the robot
+├── docs/                 # Additional documentation
+├── hardware/             # Circuit diagrams and wiring
+└── README.md             # This file
+```
 
-MedicBot is a robotics project designed to streamline routine medical checks, leveraging advanced technology for precise diagnostics and convenience.
+## 🛠️ Materials & Cost
+Below is a cost estimation for the required materials from **Amazon US** and **Amazon EU**:
+
+| Component          | Amazon US Price | Amazon EU Price |
+|--------------------|----------------|----------------|
+| Raspberry Pi 5    | $X.XX           | €X.XX          |
+| 20KG Servo Motor  | $X.XX           | €X.XX          |
+| Battery Pack      | $X.XX           | €X.XX          |
+| PLA Filament      | $X.XX           | €X.XX          |
+| Screws & Bolts    | $X.XX           | €X.XX          |
+
+*(Prices are subject to change. Check your local store for updated values.)*
+
+## 🖨️ 3D Printing Instructions
+1. Download STL files from the `stl_files/` directory.
+2. Use your preferred slicer software (e.g., Cura, PrusaSlicer).
+3. Recommended settings:
+   - Layer Height: **0.2mm**
+   - Infill: **20-30%**
+   - Supports: **As needed**
+   - Material: **PLA/ABS**
+4. Print and assemble according to the assembly guide.
+
+## 🔌 Hardware Setup
+1. Connect the Raspberry Pi 5 to the servos and sensors.
+2. Wire according to the provided schematics in the `hardware/` folder.
+3. Ensure all connections are secure before powering on.
+
+## 💻 Running the Software
+### Prerequisites
+Ensure you have the following installed:
+```sh
+sudo apt update && sudo apt install python3 python3-pip
+pip install gpiozero opencv-python numpy
+```
+
+### Running MedicBot
+To start the robot, execute the following command:
+```sh
+python3 software/main.py
+```
+
+### Features
+- Voice control (optional: add microphone support)
+- Object detection using OpenCV
+- Remote control via a web interface
+
+## 🎨 Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add feature'`).
+4. Push to your branch (`git push origin feature-name`).
+5. Open a Pull Request.
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🏥 Acknowledgments
+Thanks to the open-source community for supporting robotics and medical innovation!
 
 ---
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2db0ba5f-76ff-42fc-b448-697551e0915f" height="230px" />
-  <img src="https://github.com/user-attachments/assets/61d8a645-b7cb-414c-9f1c-8a3077e81d98" height="230px" />
-</p>
+🔗 **Stay Connected**  
+📧 Contact: your-email@example.com  
+🌐 Website: [MedicBot Project](https://your-website.com)
 
 
-![3778320-0-05636600-1736778846-shutterstock_2129755886-100945981-orig](https://github.com/user-attachments/assets/8cd12e16-3cdd-474a-a4ac-f77436e78613)
-
-### Initial Ideas
-- **Core Functions:**
-  - Measure temperature.
-  - Capture full-body photos.
-  - Zoom into the iris for detailed analysis.
-  - Monitor blood pressure.
-  - Test hand sensors with a gentle push.
-
-![More Details](https://github.com/user-attachments/assets/b6fb990e-5d3d-45f4-a1e1-07193bf8c49a)
-- **Key Features:**
-  - Compact design for easy mobility.
-  - Focus on accuracy and reliability in measurements.
-  - Integration with modern diagnostic tools.
-
----
-
-### Second Design Concept
-![Second Design Concept](https://github.com/user-attachments/assets/49611a22-00dd-4f11-8956-e9fdb53ab556)
-- **Upgrades:**
-  - Added LiDAR for precise navigation.
-  - Display panel for information feedback.
-  - Mecanum wheels for 360-degree movement.
-
----
-
-### Final Design Additions
-![Final Design](https://github.com/user-attachments/assets/c4b81ca0-4de8-41ea-9f08-1150b0618923)
-- Enhanced mobility and diagnostics with new hardware.
-- Improved user interaction through an intuitive display interface.
-![Screenshot 2025-01-03 170131](https://github.com/user-attachments/assets/c44eb645-cc58-4c8a-8148-745e7d15a375)
-![Screenshot 2025-01-03 170432](https://github.com/user-attachments/assets/afda7042-f9c4-4865-b773-e3d9dc27f2d2)
-
-
----
-
-### Future Improvements
-- **Planned Features:**
-  - Secure, locked drawer for item delivery.
-  - Movable hands for performing pressure tests.
-  - Touchscreen display for comprehensive information access.
-
----
-
-<!-- 
-1. Body Temperature
-
-    Sensor: MLX90614 (Non-contact Infrared Sensor)
-    Measures body temperature without touching the skin.
-
-2. Heart Rate and SpO2
-
-    Sensor: MAX30102 Pulse Oximeter
-    Tracks heart rate (BPM) and blood oxygen levels (SpO2).
-
-3. Blood Pressure
-
-    Device: Bluetooth or USB Blood Pressure Monitor
-    Integrates off-the-shelf monitors for systolic/diastolic readings.
-
-4. Weight
-
-    Sensor: Load Cell with HX711 Amplifier
-    Monitors weight to calculate BMI when height is known.
-
-5. Air Quality
-
-    Sensor: MQ135 Gas Sensor
-    Detects harmful gases and pollutants affecting indoor air quality. 
-Stay tuned!
--->
 
