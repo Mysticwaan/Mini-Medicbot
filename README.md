@@ -68,6 +68,26 @@ python3 software/main.py
 - Object detection using OpenCV
 - Remote control via a web interface
 
+## 🛠 Models Used
+
+### 🎙️ Whisper (OpenAI) – Speech-to-Text
+
+🔗 [GitHub Repository](https://github.com/openai/whisper)
+
+**Why Whisper?**
+- Best-in-class accuracy for real-time speech recognition
+- Handles multiple languages and noisy environments
+
+### 👁️ Moondream2 – Advanced Vision AI
+
+🔗 [GitHub Repository](https://github.com/moondream2/moondream)
+
+**Why Moondream2?**
+- Real-time object detection, segmentation, and VQA (Visual Question Answering)
+- Capable of understanding complex visual scenes, answering queries about them
+- Highly optimized for embedded AI applications like Raspberry Pi 5, ensuring superior speed and performance
+- Uses transformer-based architecture to enhance contextual understanding in vision-based tasks
+
 ## 🎨 Contributing
 Contributions are welcome! To contribute:
 1. Fork the repository.
