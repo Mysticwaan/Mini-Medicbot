@@ -1,4 +1,4 @@
-# MedicBot
+# Mini-MedicBot
 
 **An open-source robotic assistant for medical applications**
 
