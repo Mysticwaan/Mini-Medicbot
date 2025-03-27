@@ -1,6 +1,7 @@
 # [Mini-MedicBot](https://minimedicbot002.netlify.app/)
 
 ![Untitled](https://github.com/user-attachments/assets/0e0a632a-67f5-443b-9633-eb24b81a8aaa)
+
 **An open-source robotic assistant for medical applications**
 
 
