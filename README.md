@@ -25,13 +25,13 @@ MedicBot/
 ## 🛠️ Materials & Cost
 Below is a cost estimation for the required materials from **Amazon US** and **Amazon EU**:
 
-| Component          | Amazon US Price | Amazon EU Price |
-|--------------------|----------------|----------------|
-| Raspberry Pi 5    | $X.XX           | €X.XX          |
-| 20KG Servo Motor  | $X.XX           | €X.XX          |
-| Battery Pack      | $X.XX           | €X.XX          |
-| PLA Filament      | $X.XX           | €X.XX          |
-| Screws & Bolts    | $X.XX           | €X.XX          |
+| Component               | Amazon US Price | Amazon EU Price |
+|-------------------------|-----------------|-----------------|
+| Raspberry Pi 5          | [$120.00](https://www.raspberrypi.com/products/raspberry-pi-5/) | [€120.00](https://www.raspberrypi.com/products/raspberry-pi-5/) |
+| 20KG Servo Motor        | [$13.59](https://www.amazon.com/dp/B0DQGZDJW7) | [€15.00](https://www.amazon.de/dp/B0DQGZDJW7) |
+| Battery Pack            | [$87.99](https://www.amazon.com/dp/B0BMLT6T9B) | [€80.00](https://www.amazon.de/dp/B0BMLT6T9B) |
+| PLA Filament (1kg spool)| [$20.00](https://www.amazon.com/dp/B07MZBYN6F) | [€22.00](https://www.amazon.de/dp/B07MZBYN6F) |
+| Screws & Bolts Set      | [$25.00](https://www.amazon.com/dp/B07F742WJ7) | [€27.00](https://www.amazon.de/dp/B07F742WJ7) |
 
 *(Prices are subject to change. Check your local store for updated values.)*
 
