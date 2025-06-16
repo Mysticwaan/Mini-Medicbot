@@ -2,6 +2,9 @@
    
   # [Mini-MedicBot](https://minimedicbot002.netlify.app/)
 
+
+![New Project](https://github.com/user-attachments/assets/bf45dd91-ceac-4105-bb3d-54002d400421)
+
 <p> Super hackable, affordable, and end-to-end (sim2real, RL) 3D-printed open-source humanoid robot platform. Fully open-source, including hardware, SDK, and sim environments. BoM starts at $350. </p>
 
 <p> This project is built by the open-source community and is currently work in progress. We welcome your feedback, issues, and pull requests in GitHub or joining our <a href="https://discord.gg/G6KP76uha5">Discord</a>. </p>
@@ -13,9 +16,6 @@
   <span> · </span>
   <a href="https://discord.gg/G6KP76uha5">Community</a>
 </h3>
-
-
-![New Project](https://github.com/user-attachments/assets/bf45dd91-ceac-4105-bb3d-54002d400421)
 
 
 **An open-source robotic assistant for medical applications**
