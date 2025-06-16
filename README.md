@@ -19,7 +19,7 @@
 
 **An open-source robotic assistant for medical applications**
 
-![eb0b8d74-1961-49f5-9601-6d48183af9d5](https://github.com/user-attachments/assets/99015e0f-dce0-485c-9e24-71d833515dfd)
+
 
 ## 🚀 About the Project
 MedicBot is an open-source medical assistant robot designed to help with basic healthcare tasks. This project includes:
@@ -27,6 +27,8 @@ MedicBot is an open-source medical assistant robot designed to help with basic h
 - **3D Printable Parts**: STL files for printing the robot's body.
 - **Electronics & Assembly Guide**: Components list and assembly instructions.
 - **Software & Code**: Python scripts to control the robot.
+
+![eb0b8d74-1961-49f5-9601-6d48183af9d5](https://github.com/user-attachments/assets/99015e0f-dce0-485c-9e24-71d833515dfd)
 
 ## 📁 Project Structure
 ```
