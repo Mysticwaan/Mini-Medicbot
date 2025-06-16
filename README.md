@@ -1,6 +1,6 @@
 <div align="center" style="text-align: center;">
    
-  # [Mini-MedicBot](https://minimedicbot002.netlify.app/)
+  # [Mini-MedicBot!](https://minimedicbot002.netlify.app/)
 
 <p> Super hackable, affordable, and end-to-end (sim2real, RL) 3D-printed open-source humanoid robot platform. Fully open-source, including hardware, SDK, and sim environments. BoM starts at $350. </p>
 
