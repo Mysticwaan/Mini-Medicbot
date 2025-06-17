@@ -99,7 +99,7 @@ python3 software/main.py
 
 ### 👁️ Moondream2 – Advanced Vision AI
 
-🔗 [GitHub Repository](https://github.com/moondream2/moondream)
+🔗 [GitHub Repository](https://github.com/vikhyat/moondream)
 
 **Why Moondream2?**
 - Real-time object detection, segmentation, and VQA (Visual Question Answering)
