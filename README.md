@@ -9,17 +9,15 @@
 
 <p> This project is built by the open-source community and is currently work in progress. We welcome your feedback, issues, and pull requests in GitHub.  </p>
 
-
 <h1>
    <span> · </span>
   <a href="https://minimedicbot002.netlify.app/">Website</a> 🌐 
   <span> · </span>
 </h1>
 
-
 **An open-source robotic assistant for medical applications**
 
-
+![ezgif-232b073cbd34b8](https://github.com/user-attachments/assets/6ec9644c-9d96-4b5c-9522-d3b459a52956)
 
 ## 🚀 About the Project
 MedicBot is an open-source medical assistant robot designed to help with basic healthcare tasks. This project includes:
