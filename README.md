@@ -12,7 +12,7 @@
 
 <h1>
    <span> · </span>
-  <a href="https://minimedicbot002.netlify.app/">Website</a>
+  <a href="https://minimedicbot002.netlify.app/">Website</a> 🌐 
   <span> · </span>
 </h1>
 
@@ -115,16 +115,7 @@ Contributions are welcome! To contribute:
 4. Push to your branch (`git push origin feature-name`).
 5. Open a Pull Request.
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🏥 Acknowledgments
-Thanks to the open-source community for supporting robotics and medical innovation!
-
 ---
-🔗 **Stay Connected**  
-📧 Contact: your-email@example.com  
-🌐 Website: [MedicBot Project](https://your-website.com)
 
 
 
