@@ -70,21 +70,21 @@ The **Mini-MedicBot embedded brain** runs on a **Raspberry Pi Pico W** that hand
 
 ### ⚙️ Wiring Diagram
 
-| Device / Function | Pico Pin (GPIO) | Physical Pin # | Notes |
-|--------------------|-----------------|----------------|-------|
-| **TFT CS**         | GP13            | Pin 17         | Chip Select (SPI0) |
-| **TFT DC**         | GP12            | Pin 16         | Data/Command pin |
-| **TFT RST**        | GP14            | Pin 19         | Reset pin |
-| **TFT SCK**        | GP18            | Pin 24         | SPI0 Clock |
-| **TFT MOSI**       | GP19            | Pin 25         | SPI0 Data |
-| **TFT VCC**        | 3V3 (OUT)       | Pin 36         | 3.3V Power |
-| **TFT GND**        | GND             | Pin 38         | Common Ground |
-| **PCA9685 VCC**    | 3V3 (OUT)       | Pin 36         | Logic power |
-| **PCA9685 V+**     | External 5V     | —              | Servo power supply |
-| **PCA9685 GND**    | GND             | Pin 38         | Shared ground |
-| **PCA9685 SDA**    | GP0             | Pin 1          | I²C SDA |
-| **PCA9685 SCL**    | GP1             | Pin 2          | I²C SCL |
-| **Servos (1–6)**   | PCA9685 CH0–CH5 | —              | Servo control channels |
+| **Device / Function** | **Pico Pin (GPIO)** | **Physical Pin #** | **Notes**                                   |
+| --------------------- | ------------------- | ------------------ | ------------------------------------------- |
+| **TFT VCC**           | **3V3 (OUT)**       | **Pin 36**         | **3.3V power only (⚠️ Do not use VBUS/5V)** |
+| **TFT GND**           | **GND**             | **Pin 38**         | Common ground                               |
+| **TFT SCL (Clock)**   | **GP18**            | **Pin 24**         | SPI0 Clock (SCK)                            |
+| **TFT SDA (Data)**    | **GP19**            | **Pin 25**         | SPI0 MOSI                                   |
+| **TFT DC**            | **GP12**            | **Pin 16**         | Data/Command select                         |
+| **TFT CS**            | **GP13**            | **Pin 17**         | Chip Select                                 |
+| **TFT RST**           | **GP14**            | **Pin 19**         | Reset pin                                   |
+| **PCA9685 VCC**       | **3V3 (OUT)**       | **Pin 36**         | Logic power (shared with TFT)               |
+| **PCA9685 V+**        | **External 5V**     | —                  | Servo power supply (⚡ separate 5V rail)     |
+| **PCA9685 GND**       | **GND**             | **Pin 38**         | Shared ground with Pico + Servos            |
+| **PCA9685 SDA**       | **GP0**             | **Pin 1**          | I²C SDA                                     |
+| **PCA9685 SCL**       | **GP1**             | **Pin 2**          | I²C SCL                                     |
+| **Servos (1–6)**      | **PCA9685 CH0–CH5** | —                  | Controlled via PCA9685 outputs              |
 
 ⚡ **Power Note:**
 > Use a separate 5V 2A+ power source for servos.  
