@@ -203,10 +203,3 @@ void loop() {
 ✅ GC9A01A TFT displays animated facial expressions.
 ✅ PCA9685 + Wi-Fi enables 6-channel servo web control.
 ✅ Ideal for Mini-MedicBot head control module or interactive emotion display.
-
-💻 Running the Software
-Prerequisites
-sudo apt update && sudo apt install python3 python3-pip
-pip install gpiozero opencv-python numpy
-To start the robot:
-python3 software/main.py
