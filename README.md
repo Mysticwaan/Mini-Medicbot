@@ -2,7 +2,7 @@
    
   # [Mini-MedicBot!](https://minimedicbot002.netlify.app/)
 
-<p> Super hackable, affordable, and end-to-end (sim2real, RL) 3D-printed open-source humanoid robot platform. Fully open-source, including hardware, SDK, and sim environments. </p>
+<p> Super hackable, affordable, and 3D-printed open-source humanoid robot platform. Fully open-source! </p>
 
 ![image](https://github.com/user-attachments/assets/7fab5267-df9c-4e16-ad23-c0da0a0384cc)
 
